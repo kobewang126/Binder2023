@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Binder2023"
+include ':app'
+include ':binder_1'
+include ':binder_2'
+include ':binder_3_servicemanager'
+include ':binder_3_server'
+include ':binder_3_client'
+include ':binder_chuansongmeng'
